@@ -2,6 +2,7 @@ $(function () {
   var tDate = $("#currentDay");
 
   var date = dayjs().format("dddd, MMMM D, YYYY h:mm A");
+  // replaces tdate with text date & time
   tDate.text(date);
 
   var currentHour = dayjs().format("H");
@@ -32,7 +33,7 @@ $(function () {
       event: $(this).siblings()[1].value,
       time: $(this).parent().attr("id"),
     };
-    thingsToDo[eventStore.time] - eventStore.event;
+    thingsToDo[eventStore.time] = eventStore.event;
 
     localStorage.setItem("events", JSON.stringify(thingsToDo));
   }
