@@ -14,6 +14,8 @@ SO THAT I can manage my time effectively
 
 ## App link
 
+https://stevenrodriguezdev.github.io/WorkDay-Scheduler/
+
 The following animation demonstrates the application functionality:
 
 <!-- @TODO: create ticket to review/update image) -->
