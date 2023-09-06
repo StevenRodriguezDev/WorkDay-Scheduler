@@ -12,6 +12,8 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
+## App link
+
 The following animation demonstrates the application functionality:
 
 <!-- @TODO: create ticket to review/update image) -->
